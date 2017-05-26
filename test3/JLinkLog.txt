@@ -1,0 +1,27 @@
+
+T10A4 000:296 SEGGER J-Link V5.12e Log File (0001ms, 0274ms total)
+T10A4 000:296 DLL Compiled: Apr 29 2016 15:03:58 (0002ms, 0275ms total)
+T10A4 000:296 Logging started @ 2017-03-29 08:39 (0002ms, 0275ms total)
+T10A4 000:298 JLINK_SetWarnOutHandler(...) (0000ms, 0275ms total)
+T10A4 000:298 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Apr 22 2016 11:47:06
+Hardware: V9.40
+S/N: 59405497
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash  returns O.K. (0277ms, 0552ms total)
+T10A4 000:575 JLINK_SetErrorOutHandler(...) (0000ms, 0552ms total)
+T10A4 000:575 JLINK_ExecCommand("ProjectFile = "F:\software\test3\JLinkSettings.ini"", ...)  returns 0x00 (0002ms, 0554ms total)
+T10A4 000:594 JLINK_ExecCommand("Device = LPC1114FBD48/301", ...)Device "LPC1114/301" selected.  returns 0x00 (0005ms, 0560ms total)
+T10A4 000:600 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0560ms total)
+T10A4 000:600 JLINK_GetHardwareVersion()  returns 0x16F30 (0001ms, 0561ms total)
+T10A4 000:601 JLINK_GetDLLVersion()  returns 51205 (0000ms, 0561ms total)
+T10A4 000:601 JLINK_GetFirmwareString(...) (0000ms, 0561ms total)
+T10A4 000:614 JLINK_GetDLLVersion()  returns 51205 (0000ms, 0561ms total)
+T10A4 000:614 JLINK_GetCompileDateTime() (0000ms, 0561ms total)
+T10A4 000:619 JLINK_GetFirmwareString(...) (0000ms, 0561ms total)
+T10A4 000:624 JLINK_GetHardwareVersion()  returns 0x16F30 (0000ms, 0561ms total)
+T10A4 000:635 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0001ms, 0562ms total)
+T10A4 000:636 JLINK_SetSpeed(5000) (0001ms, 0563ms total)
+T10A4 000:637 JLINK_GetIdData(...) >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0xC8 JTAG> (0005ms, 0568ms total)
+T10A4 015:924 JLINK_Close() (0001ms, 0569ms total)
+T10A4 015:924  (0001ms, 0569ms total)
+T10A4 015:924 Closed (0001ms, 0569ms total)
