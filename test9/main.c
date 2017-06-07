@@ -103,7 +103,7 @@ int main()
 		
 		UART_SendStr(GcRcvBuf );//将数据发送到串口显示
 		delay (200);
-		LPC_GPIO2->DATA = (table[ulADCData /820]);
+		LPC_GPIO2->DATA = (table[ulADCData /410]);
 		
 	} 
 }

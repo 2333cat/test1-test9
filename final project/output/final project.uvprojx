@@ -402,6 +402,11 @@
               <FileType>1</FileType>
               <FilePath>..\src\UART.c</FilePath>
             </File>
+            <File>
+              <FileName>LCD1602.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\LCD1602.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #define UART_BPS 9600//串口通信波特率
-        
+        uint8_t  table[9]={0xff,0x07f,0x03f,0x1f,0x0f,0x07,0x03,0x01,0x00};
 void UART_Init()
 {
 	uint16_t usFdiv;
@@ -39,4 +39,16 @@ void UART_SendStr(char  *pucStr)
 				break;//遇到结束符退出
 			UART_SendByte(*pucStr++);  
 		}
+}
+uint8_t UART_GetByte(void )
+{
+	uint8_t  ucRcvData;
+	 while((LPC_UART->LSR&0x01)==0); 
+	
+	
+	//等待接收数据
+	
+		ucRcvData=LPC_UART->RBR;//读出数据
+		return (ucRcvData);
+	
 }
